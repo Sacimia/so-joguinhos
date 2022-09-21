@@ -1,0 +1,104 @@
+*{
+    background: rgb(24, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+h2{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: 200, bold;
+    font-size: 20px;
+}
+
+header{
+    display: block;
+    height: auto;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+.header-logo{
+    color: white;
+    border: white 1px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    font-size: 15.8px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: normal;
+    box-sizing: unset;
+}
+
+.header-logo a {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    align-items: center;
+}
+.wrapper{
+    font-size: 20px;
+}
+
+.paragrafo{
+    position: relative;
+    left: 14px;
+}
+
+.linha{
+    display: block;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid rgb(232, 227, 227);
+    border-top: 1px solid rgb(232, 227, 227);
+}
+
+li, ul{
+    align-content: space-around;
+    margin-left: 10px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+li a:hover{
+    background: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.ora{
+    text-shadow: 1px 1px 0px #ccc,
+    0px 0px 1px rgb(255, 255, 255),
+    2px 2px 0px rgb(118, 118, 118),
+    3px 3px 0px rgb(72, 71, 71),
+    4px 4px 0px rgb(60, 59, 59),
+    5px 5px 0px #000;
+}
+
+@media(min-width: 121px){
+    header{
+        width: auto;
+        height: auto;
+    }
+    h2, .tinindo{
+        position: absolute;
+        left: 50%;
+    }
+}
+
+.linha-2{
+    display: block;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid rgb(232, 227, 227);
+    border-top: 1px solid rgb(232, 227, 227);
+}
